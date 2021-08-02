@@ -1,0 +1,260 @@
+<html>
+
+<head>
+    <!-- 讓 mobile/tablet 等比例呈現網頁資訊-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        *::selection {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Microsoft JhengHei, Noto Sans TC, PingFang TC, Apple LiGothic Medium, Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+            ;
+        }
+        span {
+            display: inline;
+        }
+
+
+
+
+        .text-block {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+
+            line-height: 30px;
+            text-align: center;
+            padding-top: 15px;
+           
+
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+
+        .flex-container {
+            
+            width: 100vw;
+            height: 25vh;
+            z-index: -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .last-words {
+            width: 33%vw;
+            height: 30%vh;
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        .one-of-three{
+            
+            height: 20%vh;
+            margin: 0;
+            margin-top: 10px;
+        }
+        .three-title{
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .three-text{
+            height: 41px;
+            width: 28vw;
+            left: 82px;
+            top: 1183px;
+
+        }
+
+        .myborder {
+            width: 80vw;
+            margin-right: auto;
+            margin-left: auto;
+            border-width: 0 0 3px 0;
+            border-color: #EBDEBE;
+            border-style: solid;
+        }
+
+        .category {
+            height: 26px;
+            width: 160px;
+            left: 6px;
+            top: 10px;
+            position: relative;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            
+        }
+
+
+        figure.hero-image {
+            position: relative;
+            height: 508px;
+            width: 100vw;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+
+        }
+
+
+
+        figure {
+            background: #EBDEBE;
+            width: 100%;
+        }
+
+        figcaption {
+            color: #404040;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        nav {
+            display: flex;
+            width: 100vw;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #597C7A;
+            height: 120px;
+            font-weight: bold;            
+        }
+        a:hover {
+            transform: scale(1.1);
+            transition: transform .1s linear;
+            color: #3f6223
+        }
+
+        a {
+            color: #4F4F4F;
+        }
+
+        a:visited,
+        a:active {
+            color: #4F4F4F;
+            text-decoration: none;
+        }
+        @media screen and (min-width: 900px) {
+            .flex-container {
+            
+            width: 100vw;
+            height: 80vh;
+            z-index: -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        }
+
+        @media screen and (max-width: 900px) {
+                   figure {
+                margin-bottom: 60px;
+            }
+
+            .text-block {
+                font-size: 32px;
+                width: 210px;
+                height: 60px;
+            }
+
+            .last-words {
+                font-size: 24px;
+            }
+
+            .flex-container {
+            
+            max-width: 100vw;
+            height: 160vh;
+            z-index: -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .icon{
+            width: 100vw;
+            height: auto;
+        }
+        }
+
+
+
+
+
+        
+    </style>
+  
+</head>
+
+<body>
+    <!--Banner-->
+    <nav>
+        <img src="heroimg.png"></img>
+    </nav>
+    
+    <article>
+        <div class="flex-container" style=" flex-direction: row; flex-wrap: wrap; background-color: #f6f6f6;">
+            <div class="icon" ><a href="./index-D.html"><img src="./HomeIcon/desktop.jpg" ></a></div>
+        </br>
+            <div class="icon" > <a href="./index-M.html" ><img src="./HomeIcon/phone.jpg" ></a></div>
+    </div> 
+
+      
+ </article>
+
+
+ 
+
+    
+    <a href="https://www.facebook.com/nccunewslab">
+    <div style="
+    text-align: right;
+    top: 215px;
+    right: 100;
+    position: relative;
+    ">
+        <img src="FB.png" style="
+        height: 50px;
+        width: 50px;"></img>
+    </div>
+    </a>
+    
+ </figure>
+
+
+
+
+
+
+
+
+
+  
+
+</body>
+
+</html>

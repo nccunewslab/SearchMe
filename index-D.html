@@ -1,0 +1,444 @@
+<html>
+
+<head>
+    <!-- 讓 mobile/tablet 等比例呈現網頁資訊-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        *::selection {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Microsoft JhengHei, Noto Sans TC, PingFang TC, Apple LiGothic Medium, Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+            ;
+        }
+        span {
+            display: inline;
+        }
+
+
+
+
+        .text-block {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+
+            line-height: 30px;
+            text-align: center;
+            padding-top: 15px;
+           
+
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+
+        .flex-container {
+            
+            width: 100vw;
+            height: 25vh;
+            z-index: -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .last-words {
+            width: 33%vw;
+            height: 30%vh;
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        .one-of-three{
+            
+            height: 20%vh;
+            margin: 0;
+            margin-top: 10px;
+        }
+        .three-title{
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .three-text{
+            height: 41px;
+            width: 28vw;
+            left: 82px;
+            top: 1183px;
+
+        }
+
+        .myborder {
+            width: 80vw;
+            margin-right: auto;
+            margin-left: auto;
+            border-width: 0 0 3px 0;
+            border-color: #EBDEBE;
+            border-style: solid;
+        }
+
+        .category {
+            height: 26px;
+            width: 160px;
+            left: 6px;
+            top: 10px;
+            position: relative;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            
+        }
+
+
+        figure.hero-image {
+            position: relative;
+            height: 570px;
+            width: 100vw;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+
+        }
+
+
+
+        figure {
+            background: #EBDEBE;
+            width: 100%;
+        }
+
+        figcaption {
+            color: #404040;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        nav {
+            display: flex;
+            width: 100vw;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #597C7A;
+            height: 120px;
+            font-weight: bold;            
+        }
+        a:hover {
+            transform: scale(1.1);
+            transition: transform .1s linear;
+            color: #3f6223
+        }
+
+        a {
+            color: #4F4F4F;
+        }
+
+        a:visited,
+        a:active {
+            color: #4F4F4F;
+            text-decoration: none;
+        }
+
+        @media screen and (min-width: 900px) {
+                   figure {
+                margin-bottom: 60px;
+            }
+
+            .text-block {
+                font-size: 32px;
+                width: 210px;
+                height: 60px;
+            }
+
+            .last-words {
+                font-size: 24px;
+            }
+
+  
+        }
+
+
+
+
+
+        
+    </style>
+  
+</head>
+
+<body>
+    <!--Banner-->
+    <nav>
+        <img src="heroimg.png"></img>
+    </nav>
+    
+    <article>
+
+
+        <!-- 這裡放視覺化連結跟圖片 -->
+        <!-- 最大的那個 -->
+        <figure class="hero-image" style="text-align:center;" >
+            <figure style="
+            background-color: #F1F1F1;
+            z-index: 5;
+            height: 43px;
+            width: 180px;
+            left: 0px;
+            top: 80px;
+            border-radius: 0px;
+            margin-bottom: -43px;">
+           
+            <div class="category">視覺化專題
+            </div> </figure>
+        </br></br>
+            <a href="https://105405047.wixsite.com/typhoon-n-reservoir?fbclid=IwAR1yL8r2JnXFViu60u1julCitU6Q7ds04GwzsP7cSIoeIRO8Y922gQOt4s4">
+                <img src="D-Image/1.jpg" width="100%" height="500px" style=" padding-left: 5%; padding-right: 5%; " ></img>
+
+            </a>
+            
+            
+                
+                
+                <div style="
+                position: absolute;
+                height: 57px;
+                left: 30%;                
+                top: 370px;   
+                text-align: center; 
+                font-family: Roboto;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 47px;
+                color: #F1F1F1;
+                             
+                ">
+                消失的水源 — 颱風
+                </div>
+                <div style="font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px;
+                position: absolute;
+                text-align: left;
+                left: 30%;
+                color:#F1F1F1;
+                top: 450px;">為何颱風不來，我們就會缺水？
+                </div>
+            
+        </figure>
+        <!-- 接下來的三個 -->
+</br>
+</br>
+</br>
+        <div class="flex-container">
+            
+            <a href="https://reurl.cc/En1RMv">
+                <div class="one-of-three">
+                    <img src="D-Image/vis1.JPG" style=" width: 27vw; height: 35vh; ">
+                    </img>
+                </div>
+            </br>    <div class="three-title">少子化衝擊教育界：</div>
+                    <div  class="three-title">特色課程成解方？</div>
+            </br>
+                <div class="three-text">台灣出生率逐年下降，究竟學校該如何轉型活化，以應對少子化的衝擊？</div>
+            </a>
+            
+            <a href="https://unews2021.wixsite.com/untrustedjudges">
+                <div class="one-of-three">
+                    <img src="D-Image/vis2.jpg" style=" width: 27vw; height: 35vh;  ">
+                    </img>
+                </div>
+            </br>    <div class="three-title">體制內外雙管齊下</div>
+            <div class="three-title">修築司法與社會的橋樑</div>
+            </br>
+                <div class="three-text">法官信任度到底怎麼救？讓我們切換不同的觀點，思辨司法的更多可能性吧。</div>
+                </a>
+
+            <a href="https://reurl.cc/vqmMRL">
+                <div class="one-of-three">
+                    <img src="D-Image/vis3.png" style=" width: 27vw; height: 35vh;  ">
+                    </img>
+                </div>
+            </br>    <div class="three-title">守護弱勢者的背後：</div>
+            <div class="three-title">特殊需求者牙科醫師的重重挑戰</div>
+            </br>
+                <div class="three-text">你知道特殊需求者要怎麼看牙嗎？跟著醫師的腳步，一起看看特牙的現況與挑戰。</div>
+                </a>       
+        
+        </div>
+
+         <!-- 接下來的三個文字專題 -->
+</br>
+</br>
+</br>
+</br></br></br></br></br></br></br>
+<figure style="background-color: #597C7A; height: 45vw;margin-bottom:0;">
+    <div class="category" style="color: #E5E5E5; top: 50px;"><u>文字專題</u></div>
+</br></br></br></br></br></br></br></br></br></br>
+<div class="flex-container">
+            
+    <a href="??">
+        <div class="one-of-three">
+            <img src="D-Image/txt1.jpg" style=" width: 27vw; height: 35vh; ">
+            </img>
+        </div>
+    </br>    <div class="three-title" style="color: #F1F1F1;">消失與重生：</div>
+    <div class="three-title" style="color: #F1F1F1;">臺灣文學基地80年留存記</div>
+    </br>
+        <div class="three-text" style="color: #F1F1F1; text-align: center;"> 從拆除到保存，臺灣文學基地的蛻變故事。</div>
+    </a>
+    
+    <a href= "??">
+        <div class="one-of-three">
+            <img src="D-Image/txt2.jpg" style=" width: 27vw; height: 35vh;  ">
+            </img>
+        </div>
+    </br>    <div class="three-title"style="color: #F1F1F1;">血淚移工誰來救？</div>
+    </br>
+        <div class="three-text"style="color: #F1F1F1;">從救援移工行動中，窺見桃園群眾服務協會與移工的故事。</div>
+        </a>
+
+    <a href="??">
+        <div class="one-of-three">
+            <img src="D-Image/txt3.jpg" style=" width: 27vw; height: 35vh;  ">
+            </img>
+        </div>
+    </br>    <div class="three-title"style="color: #F1F1F1;">貓纜15年</div>
+    <div class="three-title"style="color: #F1F1F1;">貓空茶香消失中？</div>
+    </br>
+        <div class="three-text"style="color: #F1F1F1;">貓空茶農如何在貓纜影響下轉型、延續茶文化的根基呢？</div>
+        </a>       
+
+</div>
+</figure>
+
+
+         <!-- 接下來的三個影音專題 -->
+  
+
+    <figure style="background-color: #F1F1F1; height: 45vw;margin-bottom:0;">
+        <div class="category" style="color: #000000; top: 50px;"><u>影音專題</u></div>
+    </br></br></br></br></br></br></br></br></br></br>
+    <div class="flex-container" >
+                
+        <a href="??">
+            <div class="one-of-three">
+                <img src="D-Image/vid1.png" style=" width: 27vw; height: 35vh; ">
+                </img>
+            </div>
+        </br>    <div class="three-title" style="color: #000000;">不願被消失</div>
+        <div class="three-title" style="color: #000000;">台灣文學基地的黃昏與黎明</div>
+        </br>
+            <div class="three-text" style="color: #000000;">當歷史被遺忘，臺文基如何翻轉拆遷、浴火重生？</div>
+        </a>
+        
+        <a href= "??">
+            <div class="one-of-three">
+                <img src="D-Image/vid2.jpg" style=" width: 27vw; height: 35vh;  ">
+                </img>
+            </div>
+        </br>    <div class="three-title"style="color: #000000;">翻譯語言和創傷的心理通譯</div>
+        </br>
+            <div class="three-text"style="color: #000000;">在幫助移工時，通譯面臨的心理挑戰及經驗。</div>
+            </a>
+    
+        <a href="??">
+            <div class="one-of-three">
+                <img src="D-Image/vid3.JPG" style=" width: 27vw; height: 35vh;  ">
+                </img>
+            </div>
+        </br>    <div class="three-title"style="color: #000000;">貓纜15年</div>
+        <div class="three-title"style="color: #000000;">貓空的盛衰與轉型</div>
+        </br>
+            <div class="three-text"style="color: #000000;">貓纜進駐影響當地茶農，而他們又要如何轉型？</div>
+            </a>       
+    
+    </div>
+    </figure>
+ </article>
+
+
+ <!--最後的about us-->
+ <figure style="background-color: #597C7A; height: 30vw;margin-bottom:0;">
+    
+    <div style="font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top:24px;
+    left:26px;
+    color:#D3D0D0;"
+    ><b>
+    關於我們</b></div>
+
+    <div style="font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top:76px;
+    left:26px;
+    color:#D3D0D0;"
+    ><b>
+        新聞實驗室是學生媒體的實驗基地，我們持續進行不同新聞形式的嘗試。
+        Search是本次展覽主題，我們嘗試「搜尋」你我關心的議題。</b></div>
+
+    
+    <a href="https://www.facebook.com/nccunewslab">
+    <div style="
+    text-align: right;
+    top: 150px;
+    right: 100;
+    position: relative;
+    ">
+        <img src="FB.png" style="
+        height: 50px;
+        width: 50px;"></img>
+    </div>
+</a>
+    
+ </figure>
+
+
+
+
+
+
+
+
+
+  
+
+</body>
+
+</html>
